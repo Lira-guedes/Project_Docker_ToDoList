@@ -14,5 +14,5 @@ ADD node_modules.tar.gz .
 COPY . .
 
 #inicie a aplicação com o comando npm start 
-ENTRYPOINT [ "npm"]
+ENTRYPOINT ["npm"]
 CMD ["start"]
